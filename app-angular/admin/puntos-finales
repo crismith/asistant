@@ -1,0 +1,21 @@
+1 el admin vera el perfil del docente y tambien podra editar el perfil por ese archivo
+
+<div class="pageheader">
+                <h2>Curso</h2>
+                <div class="page-bar">
+                    <ul class="page-breadcrumb">
+                        <li>
+                            <a href="index.html"><i class="fa fa-home"></i> Asistant</a>
+                        </li>
+                        <li>
+                            <a href="index.html">Desarrollo GO</a>
+                        </li>
+                    </ul>
+                    <span class="controls pull-right">
+                        <a href="" class="btn btn-ef btn-ef-1 btn-ef-1-greensea btn-ef-1a btn-rounded-20 mr-5" data-toggle="tooltip">
+                            <i class="fa fa-arrow-left"></i> Atras
+                        </a>
+                    </span>
+
+                </div>
+            </div>
