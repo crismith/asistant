@@ -23,23 +23,23 @@ require '../../sidebar.php';
         </div>
 
         <div class="row">
-            <div class="col-sm-4">
-                <div class="row">
-                    <div class="col-sm-12">
+            <div class="col-sm-4" >
+                <div class="row" ng-controller="docentes">
+                    <div class="col-sm-12" class="dataTables_filter" id="editable-usage_filter">
                         <div class="search" id="main-search">
-                            <input type="text" class="form-control" placeholder="Buscar...">
+                            <input type="text" aria-controls="editable-usage" class="form-control" placeholder="Buscar...">
                         </div>
 
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-sm-12">
+                <div class="row" ng-controller="docentes">
+                    <div class="col-sm-12" ng-if="docentes">
                         <div role="tabpanel">
                             <div class="tab-content">
                                 <div role="tabpanel" class="tab-pane active" id="feed-all">
                                     <div class="wrap-reset" style="max-height: 416px;overflow:auto;">
-                                        <div class="media ">
+                                        <div class="media" ng-repeat="docente in docentes">
                                             <div class="pull-left thumb">
                                                 <img class="media-object img-circle" src="../../assets/images/random-avatar8.jpg" alt="">
                                             </div>
@@ -47,8 +47,8 @@ require '../../sidebar.php';
                                                 <button type="button" class="btn btn-rounded-20 btn-default btn-sm" style="width:30px;"><i class="fa fa-eye" style="margin-left: -2px;"></i></button>
                                             </div>
                                             <div class="media-body">
-                                                <p class="media-heading mb-0 mt-10">Anna <strong>Opichia</strong></p>
-                                                <small class="text-lightred">lead designer</small>
+                                                <p class="media-heading mb-0 mt-10">{{docente.name}} <strong>{{docente.apellido}}</strong></p>
+                                                <small class="text-lightred">{{docente.carrera}}</small>
                                             </div>
                                         </div>
 
@@ -58,9 +58,10 @@ require '../../sidebar.php';
                         </div>
                     </div>
                 </div>
+
             </div>
 
-            <div class="col-sm-8">
+            <div class="col-sm-8" ng-controller="docentes">
                 <section class="tile">
                     <div role="tabpanel">
                         <ul class="nav nav-tabs" role="tablist">
@@ -71,10 +72,10 @@ require '../../sidebar.php';
                                 </ul>
                             </div>
 
-                            <div class="tab-content">
+                            <div class="tab-content" >
 
                                 <div role="tabpanel" class="tab-pane active" id="datosDocente">
-                                    <div class="row">
+                                    <div class="row" ng-repeat="docente in docentes">
                                         <div class="col-sm-12">
                                             <br>
                                             <div class_="row"> 
@@ -92,15 +93,15 @@ require '../../sidebar.php';
                                                 </div>
                                                 <div class="col-sm-6">
                                                     <div class="boton-agrega">
-                                                        <a href="docente-editar.php" class="btn btn-primary">Editar</a>
-
+                                                        <a href="docente-editar.php" ng-click="updateDocente(docente._id)" class="btn btn-primary">Editar
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="row">
+                                    <div class="row" >
                                         <div class="col-sm-3">
                                             <br>
                                             <img src="../../assets/images/random-avatar8.jpg" alt="" class="img-responsive img-rounded">

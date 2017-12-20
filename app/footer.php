@@ -1,8 +1,6 @@
+<?php $urlS = 'http://localhost:8080/' ?>
 </div>
-    <?php $urlS = 'http://localhost:8080/' ?>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="<?php echo $urlS; ?>assets/js/vendor/jquery/jquery-1.11.2.min.js"><\/script>')</script>
-
+        <script src="<?php echo $urlS; ?>assets/js/vendor/jquery/jquery-1.11.2.min.js"></script>
         <script src="<?php echo $urlS; ?>assets/js/vendor/bootstrap/bootstrap.min.js"></script>
         <script src="<?php echo $urlS; ?>assets/js/vendor/jRespond/jRespond.min.js"></script>
         <script src="<?php echo $urlS; ?>assets/js/vendor/d3/d3.min.js"></script>
@@ -16,6 +14,9 @@
         <script src="<?php echo $urlS; ?>assets/js/vendor/animsition/js/jquery.animsition.min.js"></script>
 
         <script src="<?php echo $urlS; ?>assets/js/vendor/screenfull/screenfull.min.js"></script>
+
+        <script src="<?php echo $url; ?>app.js"></script>
+        
 
         <script src="<?php echo $urlS; ?>assets/js/main.js"></script>
 

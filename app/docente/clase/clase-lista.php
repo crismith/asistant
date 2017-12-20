@@ -68,7 +68,8 @@
                                                     <p class="text-left">Fecha</p>
                                                     <p class="text-left">12-11-2017</p>
                                                     <a href="clase-enseñar.php" class="btn btn-primary">Ver clase</a>
-                                                    <a href="clase-edita.php" class="btn btn-primary"> <i class="fa fa-pencil"></i></a>
+                                                    <a href="clase-edita.php" class="btn btn-primary"> <i class="fa fa-pencil"></i> Editar</a>
+                                                    <a href="clase-edita.php" class="btn btn-primary"> <i class="fa fa-trash"></i> Eliminar</a>
                                                     
                                                 </div>
                                                 <div class="col-sm-7">
@@ -106,7 +107,8 @@
                                                 <p class="text-left">Fecha</p>
                                                 <p class="text-left">12-11-2017</p>
                                                 <a href="clase-enseñar.php" class="btn btn-primary">Ver clase</a>
-                                                <a href="clase-edita.php" class="btn btn-primary"> <i class="fa fa-pencil"></i></a>
+                                                <a href="clase-edita.php" class="btn btn-primary"> <i class="fa fa-pencil"></i> Editar</a>
+                                                <a href="clase-edita.php" class="btn btn-primary"> <i class="fa fa-trash"></i> Eliminar</a>
                                                 
                                             </div>
                                             <div class="col-sm-7">
@@ -145,7 +147,8 @@
                                             <p class="text-left">Fecha</p>
                                             <p class="text-left">12-11-2017</p>
                                             <a href="clase-enseñar.php" class="btn btn-primary">Ver clase</a>
-                                            <a href="clase-edita.php" class="btn btn-primary"> <i class="fa fa-pencil"></i></a>
+                                            <a href="clase-edita.php" class="btn btn-primary"> <i class="fa fa-pencil"></i> Editar</a>
+                                            <a href="clase-edita.php" class="btn btn-primary"> <i class="fa fa-trash"></i> Eliminar</a>
                                             
                                         </div>
                                         <div class="col-sm-7">
@@ -193,7 +196,8 @@
                                         <p class="text-left">Fecha</p>
                                         <p class="text-left">12-11-2017</p>
                                         <a href="clase-enseñar.php" class="btn btn-primary">Ver clase</a>
-                                        <a href="clase-edita.php" class="btn btn-primary"> <i class="fa fa-pencil"></i></a>
+                                        <a href="clase-edita.php" class="btn btn-primary"> <i class="fa fa-pencil"></i> Editar</a>
+                                        <a href="clase-edita.php" class="btn btn-primary"> <i class="fa fa-trash"></i> Eliminar</a>
                                         
                                     </div>
                                     <div class="col-sm-7">
@@ -231,7 +235,8 @@
                                     <p class="text-left">Fecha</p>
                                     <p class="text-left">12-11-2017</p>
                                     <a href="clase-enseñar.php" class="btn btn-primary">Ver clase</a>
-                                    <a href="clase-edita.php" class="btn btn-primary"> <i class="fa fa-pencil"></i></a>
+                                    <a href="clase-edita.php" class="btn btn-primary"> <i class="fa fa-pencil"></i> Editar</a>
+                                    <a href="clase-edita.php" class="btn btn-primary"> <i class="fa fa-trash"></i> Eliminar</a>
                                     
                                 </div>
                                 <div class="col-sm-7">
@@ -270,7 +275,8 @@
                                 <p class="text-left">Fecha</p>
                                 <p class="text-left">12-11-2017</p>
                                 <a href="clase-enseñar.php" class="btn btn-primary">Ver clase</a>
-                                <a href="clase-edita.php" class="btn btn-primary"> <i class="fa fa-pencil"></i></a>
+                                <a href="clase-edita.php" class="btn btn-primary"> <i class="fa fa-pencil"></i> Editar</a>
+                                <a href="clase-edita.php" class="btn btn-primary"> <i class="fa fa-trash"></i> Eliminar</a>
                                 
                             </div>
                             <div class="col-sm-7">

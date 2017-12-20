@@ -10,7 +10,7 @@ require '../../sidebar.php';
         <div class="page page-forms-validate">
             <div class="row">
                 <div class="col-md-12">
-                    <section class="tile">
+                    <section class="tile" ng-controller="creaCurso" >
                         <div class="tile-header dvd dvd-btm nav-tabs tabs-dark">
                             <h1 class="custom-font"><strong>Registrar </strong>Curso</h1>
                         </div>
@@ -19,11 +19,11 @@ require '../../sidebar.php';
                                 <div class="row">
                                     <div class="form-group col-md-6">
                                         <label>Nombre * </label>
-                                        <input type="text" name="nameCurso" id="nameCurso" class="form-control" required>
+                                        <input type="text" ng-model="nameCurso" class="form-control" required>
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label>Especialidad</label>
-                                        <select class="form-control mb-12" name="especialidadCurso" id="especialidadCurso">
+                                        <select class="form-control mb-12" ng-model="especialidadCurso">
                                          <option>Computacion e Informatica</option>
                                          <option>Contabilidad</option>
                                      </select>
@@ -33,7 +33,7 @@ require '../../sidebar.php';
                                  
                                 <div class="form-group col-md-6">
                                     <label>Ciclo</label>
-                                    <select class="form-control mb-12" name="cicloCurso" id="cicloCurso">
+                                    <select class="form-control mb-12" ng-model="cicloCurso">
                                      <option>I Ciclo</option>
                                      <option>II ciclo</option>
                                      <option>III ciclo</option>
@@ -44,15 +44,15 @@ require '../../sidebar.php';
                              </div>
                              <div class="form-group col-sm-6">
                                 <label for="avatar">Imagen del curso</label>
-                                <input type="file" id="avatarCurso" class="filestyle" data-buttonText="Foto" data-iconName="fa fa-picture-o">
+                                <input type="file" ng-model="imgCurso" class="filestyle" data-buttonText="Foto" data-iconName="fa fa-picture-o">
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col-sm-6">
                                 <label for="avatar">Inicio</label>
 
-                                <div class='input-group datepicker w-460'>
-                                    <input type='text'  name="inicioCurso" class="form-control" />
+                                <div class="input-group datepicker w-400" data-format="L">
+                                    <input type='text'  ng-model="inicioC" class="form-control" />
                                     <span class="input-group-addon">
                                         <span class="fa fa-calendar"></span>
                                     </span>
@@ -61,8 +61,8 @@ require '../../sidebar.php';
                             <div class="form-group col-sm-6">
                                 <label for="avatar">Final</label>
 
-                                <div class='input-group datepicker w-460'>
-                                    <input type='text' name="finalCurso" class="form-control" />
+                                <div class="input-group datepicker w-400" data-format="L">
+                                    <input type='text' ng-model="finalC" class="form-control" />
                                     <span class="input-group-addon">
                                         <span class="fa fa-calendar"></span>
                                     </span>
@@ -72,7 +72,7 @@ require '../../sidebar.php';
                         <div class="row">
                             <div class="form-group col-sm-6">
                                 <label for="avatar">Descripción</label>
-                                <textarea name="descriptionCurso" id="" class="form-control" rows="3">
+                                <textarea ng-model="descriptionCurso" id="" class="form-control" rows="3">
                                     
                                 </textarea>
                             </div>
@@ -81,9 +81,7 @@ require '../../sidebar.php';
                                 <br>
                                 <br>
                                 <br>
-                                <p href="" class="text-right">
-                                    <button class="btn btn-greensea btn-ef btn-ef-7 btn-ef-7h mb-10"><i class="fa fa-envelope"></i> Guardar</button>
-                                </p>
+                                <button class="btn btn-greensea" ng-click="creaCurso()">Guardar</button>
                             </div>
                         </div>
                     </form>

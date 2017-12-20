@@ -1,0 +1,10 @@
+guardar los datos de la forma correcta
+
+Editar los modulos
+
+Asignar los cursos a los docentes y los cursos al docente
+
+Realizar el crud correcto
+
+eliminar los datos al guardar un usuario
+

@@ -58,10 +58,8 @@ require '../../sidebar.php';
                                     </div>
                                     
                                 </div>
+                                <button type="button" class="btn btn-greensea mb-10">Guardar</button>
                             </form>
-                        </div>
-                        <div class="tile-footer text-right bg-tr-black lter dvd dvd-top">
-                            <button type="button" class="btn btn-greensea mb-10">Guardar</button>
                         </div>
                     </section>
                 </div>

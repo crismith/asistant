@@ -1,4 +1,4 @@
-<html lang="en" ng-app="app_web">
+<html ng-app="app_web">
     <head>
         <?php $url = "http://localhost:8080/"; ?>
         <meta charset="UTF-8">
@@ -18,7 +18,7 @@
 
         <link rel="stylesheet" href="<?php echo $url; ?>assets/css/main.css">
 
-        <script src="<?php echo $url; ?>assets/js/angular.min.js"></script>
+
         <script src="<?php echo $url; ?>assets/js/vendor/modernizr/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        
+        <script src="<?php echo $url; ?>assets/js/angular.min.js"></script>
     </head>
